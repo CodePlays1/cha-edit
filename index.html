@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" /> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+      <meta name="keywords" content="Video Editing, Motion Graphics, Video Production"> 
+      <meta name="description" content="A simple, beautiful, and responsive web template for video editing and visual production! Using only HTML, CSS, and JavaScript.">
+      <meta name="author" content="Shamsuddin">
+      <title>Chmissou Edit</title>
+      <link rel="icon" href="img/favicon.jpg">
+      <link href="./css/header.css" rel="stylesheet" />
+      <link href="./css/main.css" rel="stylesheet" />
+      <link href="./css/home.css" rel="stylesheet" />
+      <link href="./css/about.css" rel="stylesheet" />
+      <link href="./css/service.css" rel="stylesheet" />
+      <link href="./css/portfolio.css" rel="stylesheet" />
+      <link href="./css/features.css" rel="stylesheet" />
+      <link href="./css/contact.css" rel="stylesheet" />
+      <link href="./css/footer.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   </head>
+   <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "9tLN8koJp7OVV2eia",
+      });
+   })();
+</script>
+
+   <body>
+          <!-- Popup -->
+    <div id="popup" class="popup">
+      <div class="popup-content">
+          <span class="close">&times;</span>
+          <p></p>
+      </div>
+  </div>
+
+      <header>
+         <div class="container">
+            <div class="row">
+               <div class="brand-name">
+                  <a href="#about" class="logo">Ch Ed</a>
+               </div>
+               <div class="navbar" id="navbar">
+                  <ul>
+                     <li><a href="#home" class="active">Home</a></li>
+                     <li><a href="#about">About Me</a></li>
+                     <li><a href="#services">Services</a></li>
+                     <li><a href="#portfolio">Portfolio</a></li>
+                     <li><a href="#features">Features</a></li>
+                     <li><a href="#contact">Contact Me</a></li>
+                  </ul>
+               </div>
+         </div>
+      </header>
+      <section class="home" id="home">
+         <div class="container">
+            <div class="row full-screen">
+               <div class="home-content">
+                  <div class="block">
+                     <h6>Hi, I'm</h6>
+                     <h1>Chamseddine</h1>
+                     <h3>Video Editing Specialist</h3>
+                     <div class="cv-btn">
+                        <a href="#contact">Contact Me</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="about" id="about">
+         <div class="container">
+         <div class="row">
+            <div class="title">
+               <h1>About Me</h1>
+               <p>Learn more about me</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="about-content">
+               <div class="row">
+                  <div class="img">
+                     <img src="img/me.jpg" alt='me' />
+                  </div>
+                  <div class="text">
+                     <h4>Who I Am</h4>
+                     <p>I specialize in video editing and visual content production. Passionate about turning ideas into engaging and professional videos. I work with small and large companies to create content that reflects their identity and conveys their message uniquely.</p>
+                     <div class="skills">
+                        <h6>Tools and Techniques I Use:</h6>
+                        <div class="skills-list">
+                           <ul class="fa-ul">
+                              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Adobe Premiere Pro</li>
+                              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Final Cut Pro</li>
+                              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>After Effects</li>
+                              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Motion Graphics</li>
+                              <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Color Grading</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="services" id="services">
+         <div class="container">
+            <div class="row">
+               <div class="title text-center">
+                  <h1>Services</h1>
+               </div>
+            </div>
+            <div class="row">
+               <div class="service-content">
+                  <div class="box">
+                     <div class="icon"><i class="fas fa-film"></i></div>
+                     <h5>Video Editing</h5>
+                     <p>I edit videos with high quality and precision to suit your business needs.</p>
+                  </div>
+                  <div class="box">
+                     <div class="icon"><i class="fas fa-magic"></i></div>
+                     <h5>Motion Graphics</h5>
+                     <p>Adding animated visual elements to make content more engaging.</p>
+                  </div>
+                  <div class="box">
+                     <div class="icon"><i class="fas fa-adjust"></i></div>
+                     <h5>Color Correction</h5>
+                     <p>Improving and adjusting colors to ensure the best scene quality.</p>
+                  </div>
+                  <div class="box">
+                     <div class="icon"><i class="fas fa-video"></i></div>
+                     <h5>Video Production</h5>
+                     <p>From shooting to final output, I provide comprehensive production services.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+         <div class="container">
+            <div class="row">
+               <div class="title text-center">
+                  <h1>Portfolio</h1>
+               </div>
+            </div>
+            <div class="row">
+               <div class="gallery">
+                  <div class="item">
+                     <div class="inner">
+                        <video controls>
+                           <source src="./img/video1.mp4" type="video/mp4">
+                           Your browser does not support the video tag.
+                        </video>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="inner">
+                        <video controls>
+                           <source src="./img/video2.mp4" type="video/mp4">
+                           Your browser does not support the video tag.
+                        </video>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="inner">
+                        <video controls>
+                           <source src="./img/video3.mp4" type="video/mp4">
+                           Your browser does not support the video tag.
+                        </video>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="features" id="features">
+         <h2 class="main-title">Features</h2>
+         <div class="container">
+            <div class="box quality">
+               <div class="img-holder"><img src="img/features-01.jpg" alt="" /></div>
+               <h2>Quality</h2>
+               <p>I strive to deliver the highest quality in every project to ensure complete customer satisfaction.</p>
+            </div>
+            <div class="box time">
+               <div class="img-holder"><img src="img/features-02.jpg" alt="" /></div>
+               <h2>Time</h2>
+               <p>I value my clients' time and always aim to meet deadlines and deliver on time.</p>
+            </div>
+            <div class="box passion">
+               <div class="img-holder"><img src="img/features-03.jpg" alt="" /></div>
+               <h2>Professionalism</h2>
+               <p>Committed to delivering outstanding and highly professional work for my clients in all projects.</p>
+            </div>
+         </div>
+      </section>
+      <section class="contact" id="contact">
+         <div class="container">
+            <div class="row">
+               <div class="title text-center">
+                  <h1>Contact Me</h1>
+               </div>
+            </div>
+            <div class="row">
+               <div class="contact-form">
+                  <div class="row">
+                     <div class="contact-text">
+                        <h2>Send Me a Message</h2>
+                        <p>My inbox is always open</p>
+                     </div>
+                  </div>
+                  <div class="row space-between">
+                     <div class="col-6">
+                        <input type="text" class="form-control" name="" placeholder="Name" id="name" required/>
+                     </div>
+                     <div class="col-6">
+                        <input type="text" class="form-control" name="" placeholder="Email" id="email" required/>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-12">
+                        <textarea class="form-control" placeholder="Your Message" id="text" required></textarea>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="btn">
+                        <button class="button" id="send">Contact Me</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="footer-logo">Chamseddine</div>
+            </div>
+         </div>
+      </footer>
+      <section class="copyright">
+         <div class="container">
+            <p>© <span id="year"></span> | Designed and developed by Shamsuddin. | All rights reserved.</p>
+         </div>
+      </section>
+      <div class="lightbox hide">
+         <span class="close-lightbox fa fa-close"></span>
+         <img src="" alt="portfolio"/>
+      </div>
+      <script src="./js/app.js"></script>
+   </body>
+</html>
